@@ -28,7 +28,7 @@ $liekana = $x % $y;
 </body>
 </html>
 
-
+<!-- kiti variantai atlikti uzduotis -->
 
 <?php
 $x = 10;
