@@ -54,6 +54,6 @@ echo "{$sk1} + {$sk2} = {$sudetis}";
 $sk1 = 7;
 $sk2 = 10;
 
-echo "{$sk1} + {$sk2} = {$sk1 + $sk2}";
+// echo "{$sk1} + {$sk2} = {$sk1 + $sk2}";
 ?>
 
