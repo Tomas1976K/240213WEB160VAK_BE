@@ -1,0 +1,261 @@
+/*
+Theme Name: Projektinio darbo tema
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+
+div.contacts {
+    background-color: #0e0e08ef;
+}
+
+div.contacts div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 20px;
+}
+
+div.container {
+    /* background-color: #111105ef; */
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+div.contacts div.container a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+div.contacts div.container div.left-toolbox a.toolbox-group {
+    margin-right: 42px;
+}
+
+div.contacts div.container div.right-toolbox a.toolbox-group {
+    margin-right: 34px;
+}
+
+div.contacts div.container div.right-toolbox a.toolbox-icon {
+    margin-left: 16px;
+}
+
+div.contacts div.container a img {
+    vertical-align: middle;
+}
+
+
+nav div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+nav ul.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* text-decoration: none; */
+}
+
+/* patikslinau nurodyta kelia bet rezultato norimo negavau? */
+nav div.container ul.menu li {
+    margin-left: 50px;
+    color: hsl(0, 0%, 0%);
+}
+
+nav div.container ul.menu li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+nav div.container ul.menu li a.button button {
+    background-color: rgb(114, 98, 201);
+    color: hsl(0, 0%, 100%);
+    padding: 15px 32px;
+
+}
+
+
+
+
+/* header div.overlay {
+    background-color: #0000ff;
+    height: 100%;
+} */
+
+
+header {
+    position: relative;
+}
+
+header img.header-background {
+    width: 100%;
+    display: block;
+}
+
+header div.overlay h1 span.bold {
+    color: rgb(110 237 127);
+}
+
+
+
+
+
+header div.overlay {
+    width: 40%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* margin: 0;
+    padding: 0; */
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    padding: 200px 100px;
+}
+
+header div.overlay p {
+    margin: 0;
+    font-size: 15px;
+    color: #FFFFFF;
+
+    /* top: 30%; */
+    /* padding: 0 20px; */
+    /* position: absolute;
+    width: 100%;
+    left: 50px; */
+    /* transform: 0%, -50%; */
+}
+
+header div.overlay h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+
+    /* padding: 0 20px; */
+    /* position: absolute;
+    width: 50%;
+    left: 50px; */
+    /* transform: 0%, -20%; */
+    /* font-size: 70px; */
+}
+
+
+
+header div.overlay p.text {
+    margin: 0;
+    font-size: 15px;
+    color: #ffffff91;
+
+    /* padding: 0 20px; */
+    /* position: absolute;
+    width: 40%;
+    left: 50px; */
+    /* transform: 0%, -50%; */
+    /* top: 70%; */
+}
+
+
+
+header div.overlay a.button2 button {
+    background-color: rgb(110 237 127);
+    color: hsl(0, 0%, 0%);
+    padding: 15px 32px;
+    font-size: 15px;
+    margin-top: 35px;
+
+
+}
+
+
+div.contacts2 {
+    background-color: #0e0e08ef;
+}
+
+div.contacts2 div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 20px;
+}
+
+div.contacts2 div.container div.footer-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.contacts2 div.container div.footer-contacts .toolbox-group2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.contacts2 div.container div.footer-contacts .toolbox-group2 .footer-conttacts-icon-wrapper {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4C4D52;
+    border-radius: 50%;
+}
+
+
+
+div.contacts2 div.container div.footer-contacts .toolbox-group2 p {
+    text-decoration-line: none;
+    color: #FFFFFF;
+    /* text-decoration-color: hwb(0 0% 100%); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
